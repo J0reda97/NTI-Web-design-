@@ -1,0 +1,59 @@
+<htm>
+
+    <head>
+        <title>
+            flex-train
+        </title>
+        <style>
+            .container {
+                background-color: beige;
+                width: 100%;
+                height: 100%;
+                max-width: 900px;
+                max-height: 750px;
+                border: 2px solid black;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between
+            }
+
+            .item {
+                width: 200px
+            }
+
+
+
+            .first {
+                background-color: cornflowerblue;
+                /* flex-grow: 1 */
+                ;
+                flex-shrink: 1
+            }
+
+            .second {
+                background-color: chartreuse;
+                order: 1;
+                /* flex-grow: 4 */
+                ;
+                flex-shrink: 1
+            }
+
+            .third {
+                background-color: coral;
+                /* flex-grow: 1 */
+                ;
+                flex-shrink: 1
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class=container>
+            <div class=" item first">first</div>
+            <div class=" item second">second</div>
+            <div class="item third">third</div>
+
+        </div>
+    </body>
+</htm>

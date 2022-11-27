@@ -1,0 +1,60 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header,.footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-items: flex-end
+    ;
+}
+
+.header .h{
+    width: 30%;
+    
+}
+
+.header .links {
+    width: 700%;
+    padding-left: 500px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.header .links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.container .body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.body .links {
+    width: 100px;
+    height: 500px;
+    background-color: beige;
+}
+
+.body .content {
+    width: 300px;
+    height: 500px;
+    background-color: aquamarine;
+}
